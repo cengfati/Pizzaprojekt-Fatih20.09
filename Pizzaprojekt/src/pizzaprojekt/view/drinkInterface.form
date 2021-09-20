@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pizzaprojekt.view.drinkInterface">
+  <grid id="27dc6" binding="drinkPanel" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="719" height="927"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="548ab" class="javax.swing.JLabel" binding="availableLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Folgende Getränke stehen zur Verfügung:"/>
+        </properties>
+      </component>
+      <component id="5d601" class="javax.swing.JButton" binding="waterButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="pizzaprojekt/view/assets/Water.png"/>
+          <text value=" Preis: 1,00€"/>
+        </properties>
+      </component>
+      <component id="94cb4" class="javax.swing.JButton" binding="juiceButton">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="pizzaprojekt/view/assets/Juice.png"/>
+          <text value="Preis: 3,00€"/>
+        </properties>
+      </component>
+      <component id="ff37f" class="javax.swing.JButton" binding="lemonadeButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <hideActionText value="false"/>
+          <icon value="pizzaprojekt/view/assets/Lemonade.png"/>
+          <text value="Preis: 4,00€"/>
+        </properties>
+      </component>
+      <component id="4307b" class="javax.swing.JButton" binding="zurückButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Zurück"/>
+        </properties>
+      </component>
+      <component id="f19b6" class="javax.swing.JLabel" binding="priceStatus">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Gesamtpreis:"/>
+        </properties>
+      </component>
+      <component id="a61fe" class="javax.swing.JLabel" binding="waterPiece">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Anzahl Wasser:"/>
+        </properties>
+      </component>
+      <component id="40a5f" class="javax.swing.JLabel" binding="juicePiece">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Anzahl Saft:"/>
+        </properties>
+      </component>
+      <component id="b4752" class="javax.swing.JLabel" binding="lemonadePiece">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Anzahl Limonade:"/>
+        </properties>
+      </component>
+      <component id="7e98e" class="javax.swing.JLabel" binding="counterLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cf3e2" class="javax.swing.JButton" binding="removeWater">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Entferne Wasser"/>
+        </properties>
+      </component>
+      <component id="bdd54" class="javax.swing.JButton" binding="removeJuice">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Entferne Saft"/>
+        </properties>
+      </component>
+      <component id="44689" class="javax.swing.JButton" binding="removeLemonade">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Entferne Limonade"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
